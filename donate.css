@@ -1,0 +1,158 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* nav-bar */
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(255, 225, 0);
+  padding: 10px;
+}
+
+.navbar > div > a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.navbar > div {
+  display: flex;
+  gap: 20px;
+}
+
+.icons > i {
+  padding: 0px 5px;
+}
+
+.navbar > .icons {
+  padding: 0% 10%;
+}
+
+.fa-heart-pulse {
+  margin: 0% 10%;
+}
+
+.navbar a:hover,
+i:hover {
+  color: aliceblue;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* main-body */
+
+.img-1 {
+  width: 100%;
+  height: 500px;
+}
+
+#heading {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0%;
+  text-transform: capitalize;
+}
+
+/* cards-content */
+
+#donation-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(241, 238, 238);
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* coins-content */
+
+.selector {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+#money {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 225, 0);
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#money:hover {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+/* footer */
+
+.footermain {
+  display: flex;
+  justify-content: center;
+}
+
+.footercontent {
+  margin: 5% 0% 1%;
+  background-color: rgb(255, 225, 0);
+  width: 50%;
+  height: 200px;
+  text-align: center;
+  padding-top: 5%;
+  border-radius: 20px;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+
+.footercontent > button {
+  margin-top: 10px;
+  color: aliceblue;
+  background-color: black;
+  padding: 5px 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.footerinfo {
+  background-color: black;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.information {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  padding: 40px 0px;
+}

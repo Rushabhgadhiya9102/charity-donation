@@ -1,0 +1,231 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* nav-bar */
+
+.navbar{
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(255, 225, 0);
+  padding: 10px;
+}
+
+.navbar>div>a{
+color: black;
+text-decoration: none;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.navbar>div{
+display: flex;
+gap: 20px;
+}
+
+.icons>i{
+ padding: 0px 5px;
+}
+
+.navbar>.icons{
+padding: 0% 10%;
+}
+
+.fa-heart-pulse{
+margin: 0% 10%;
+}
+
+.navbar a:hover,
+i:hover {
+  color: aliceblue;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* main-content */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(247, 243, 229);
+  height: 730px;
+}
+
+.main > img {
+  width: 800px;
+  height: 730px;
+}
+
+.txt {
+  width: 500px;
+  margin: 12% 10%;
+  
+}
+
+.txt > h2 {
+  color: rgb(255, 225, 0);
+  text-transform: uppercase;
+}
+.txt > h1 {
+  text-transform: capitalize;
+}
+
+.txt button {
+  background-color: rgb(255, 225, 0);
+  padding: 5px 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+/* cards */
+
+.background-image{
+  background-image: url('./images/tasco-03-scaled.jpg');
+  padding: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#heading {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  color: rgb(255, 225, 0);
+  padding: 40px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+}
+
+.cards {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: x-large;
+  margin: 5% 0% 2%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#unity-image {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.cards > h2 {
+  color: rgb(255, 225, 0);
+}
+.cards > h2,
+p {
+  padding: 0px 10px;
+}
+/* forms */
+
+.register {
+  background-color: rgb(255, 225, 0);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 20px;
+  margin: 20px 0px 20px 800px;
+}
+
+input {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: white;
+  color: white;
+}
+
+#forms {
+  width: 300px;
+}
+
+select {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: white;
+  margin-right: 18px;
+}
+
+.register button {
+  width: 300px;
+  padding: 5px 0px;
+  border-radius: 20px;
+  color: rgb(255, 225, 0);
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+/* footer */
+
+.footermain {
+  display: flex;
+  justify-content: center;
+}
+
+.footercontent {
+  margin: 5% 0% 1%;
+  background-color: rgb(255, 225, 0);
+  width: 50%;
+  height: 200px;
+  text-align: center;
+  padding-top: 5%;
+  border-radius: 20px;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+
+.footercontent > button {
+  margin-top: 10px;
+  color: aliceblue;
+  background-color: black;
+  padding: 5px 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.footerinfo {
+  background-color: black;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.information {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  padding: 40px 0px;
+}

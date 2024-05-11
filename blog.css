@@ -1,0 +1,174 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* nav-bar */
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(255, 225, 0);
+  padding: 10px;
+}
+
+.navbar > div > a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.navbar > div {
+  display: flex;
+  gap: 20px;
+}
+
+.icons > i {
+  padding: 0px 5px;
+}
+
+.navbar > .icons {
+  padding: 0% 10%;
+}
+
+.fa-heart-pulse {
+  margin: 0% 10%;
+}
+
+.navbar > div > a:hover,
+i:hover {
+  color: aliceblue;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* main-body  */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 5%;
+  justify-content: space-around;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.card > img {
+  width: 400px;
+  height: 250px;
+}
+
+.meter {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: small;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.review > img {
+  background-color: black;
+  width: 200px;
+  height: 40px;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+.review {
+  display: flex;
+  justify-content: space-evenly;
+  color:rgb(255, 225, 0);
+  text-transform: capitalize;
+  background-color: black;
+}
+
+.fa-calendar-days {
+  color: rgb(255, 225, 0);
+}
+
+.fa-clock {
+  color: rgb(255, 225, 0);
+}
+
+.content {
+  text-align: center;
+}
+
+.content > h2 {
+  text-transform: capitalize;
+  color: rgb(255, 225, 0);
+  margin: 15px;
+}
+
+#heading{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  text-transform: capitalize;
+  color: rgb(255, 225, 0);
+  padding: 5% 0% 1% 0%;
+}
+
+/* footer */
+
+
+.footermain {
+  display: flex;
+  justify-content: center;
+}
+
+.footercontent {
+  margin: 5% 0% 1%;
+  background-color: rgb(255, 225, 0);
+  width: 50%;
+  height: 200px;
+  text-align: center;
+  padding-top: 5%;
+  border-radius: 20px;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+
+.footercontent > button {
+  margin-top: 10px;
+  color: aliceblue;
+  background-color: black;
+  padding: 5px 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.footerinfo {
+  background-color: black;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.information {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  padding: 40px 0px;
+}
